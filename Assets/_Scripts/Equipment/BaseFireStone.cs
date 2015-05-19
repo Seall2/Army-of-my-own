@@ -6,7 +6,7 @@ public class BaseFireStone : BaseEquipmentClass {
 	public BaseFireStone()
 	{
 		BaseEquipmentName = "Firestone";
-		BaseEquipmentDescription = "A Magical Stone that protect Against Fire";
+		BaseEquipmentDescription = "A Magical Stone That Protects Against Fire";
 		
 		EquipmentType = EquipmentTypes.Accessory;
 		
