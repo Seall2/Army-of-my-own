@@ -12,6 +12,8 @@ public class BaseEquipmentClass
 
 	private EquipmentTypes equipmentType;
 
+	private bool isEquipped;
+
 	private string baseEquipmentName;
 	private string baseEquipmentDescription;
 
@@ -31,6 +33,8 @@ public class BaseEquipmentClass
 	//private List<upgrade> upgrade
 
 	public EquipmentTypes EquipmentType{ get; set;}
+
+	public bool IsEquipped{ get; set;}
 
 	public string BaseEquipmentName{ get; set;}
 	public string BaseEquipmentDescription{ get; set;}
