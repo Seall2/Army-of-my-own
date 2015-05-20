@@ -9,6 +9,8 @@ public class BaseOrcClass : BaseUnitClass
 		BaseUnitDescription = "An orc with great fury";
 		BaseUnitImg = null;
 
+		Cost = 5;
+
 		Health = 120;
 		Attack = 10;
 		Defence = 19;

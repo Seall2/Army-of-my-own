@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{EA7480B3-71C8-D20E-486D-9690B555E2FB}</ProjectGuid>
+	<ProjectGuid>{CC0585A6-91FF-56C1-D195-26EFA164EC22}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,32 +46,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PlayerPrefsX.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseAdamantSword.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseAirStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseAngelStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseBasiliskStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseBehemothStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseCopperSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseDeathStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseDemonStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseDragonStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseDryadStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseEarthStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseEquipmentClass.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseFairyStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseFireStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseGarudaStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseGhostStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseGhoulStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseGnomeStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseGodStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseGryphonStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseHarpyStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseIfritStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseIronSword.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseKrakenStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseLeviathanStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseLightStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseMermaidStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseMythrilSword.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseOrichalcumSword.cs" />
@@ -79,10 +72,11 @@
      <Compile Include="Assets\_Scripts\Equipment\BasePhoenixStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseSalamanderStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseSerpentStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseShadowStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseSteelSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseUnicornStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseWaterStone.cs" />
+     <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
+     <Compile Include="Assets\_Scripts\Player\BasePlayer.cs" />
+     <Compile Include="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseOrcClass.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />

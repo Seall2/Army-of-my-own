@@ -7,6 +7,8 @@ public class BaseUnitClass
 	private string baseUnitDescription;
 	private Texture2D baseUnitImg;
 
+	private int cost;
+
 	private int health;
 	private int attack;
 	private int defence;
@@ -47,6 +49,12 @@ public class BaseUnitClass
 	{
 		get{ return baseUnitImg;}
 		set{ baseUnitImg = value;}
+	}
+
+	public int Cost
+	{
+		get{ return cost;}
+		set{ cost = value;}
 	}
 
 	public int Health
