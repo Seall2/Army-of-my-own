@@ -10,7 +10,7 @@ public class SaveInformation
 		PlayerPrefs.SetInt ("EXP", GameInformation.Exp);
 		PlayerPrefs.SetInt ("ARMYCOST", GameInformation.ArmyCost);
 
-		PlayerPrefsX.SetStringArray ("UNITS", GameInformation.ArmyCost);
+		PlayerPrefsX.SetStringArray ("UNITS", GameInformation.Units);
 		PlayerPrefsX.SetStringArray ("EQUIPMENT", GameInformation.Equipment);
 	}
 }
