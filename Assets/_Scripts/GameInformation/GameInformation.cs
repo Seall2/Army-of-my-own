@@ -20,4 +20,7 @@ public class GameInformation : MonoBehaviour
 	public static string[] Equipment{ get; set; }
 
 	public static List<string> Equipment2{ get; set; }
+	public static string Equip{ get; set; }
+
+	public static string UnitName{ get; set; }
 }
