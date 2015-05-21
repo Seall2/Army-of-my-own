@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameInformation : MonoBehaviour
 {
@@ -17,4 +18,6 @@ public class GameInformation : MonoBehaviour
 
 	public static string[] Units{ get; set; }
 	public static string[] Equipment{ get; set; }
+
+	public static List<string> Equipment2{ get; set; }
 }

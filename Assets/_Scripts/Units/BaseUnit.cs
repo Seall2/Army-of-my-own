@@ -24,6 +24,12 @@ public class BaseUnit
 		set{ unitName = value;}
 	}
 
+	public BaseUnitClass UnitClass
+	{
+		get{ return unitClass;}
+		set{ unitClass = value;}
+	}
+
 	public int Health
 	{
 		get{ return health;}

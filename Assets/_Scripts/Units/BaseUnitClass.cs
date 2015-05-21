@@ -3,6 +3,7 @@ using System.Collections;
 
 public class BaseUnitClass
 {
+	private string unitID;
 	private string baseUnitName;
 	private string baseUnitDescription;
 	private Texture2D baseUnitImg;
@@ -29,9 +30,16 @@ public class BaseUnitClass
 	private string ability;
 
 	//Placeholder evolutions
+	//private BaseUnitClass upgrade;
 	private string upgrade;
 	private string mutate;
 	private string rebuild;
+
+	public string UnitID
+	{
+		get{ return baseUnitName;}
+		set{ baseUnitName = value;}
+	}
 
 	public string BaseUnitName
 	{
@@ -140,6 +148,12 @@ public class BaseUnitClass
 	}
 
 	//Placeholder evolutions
+
+	/*public BaseUnitClass Upgrade
+	{
+		get{return upgrade;}
+		set{ upgrade = value;}
+	}*/
 
 	public string Upgrade
 	{

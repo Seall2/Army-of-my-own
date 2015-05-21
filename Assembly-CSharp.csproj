@@ -74,9 +74,13 @@
      <Compile Include="Assets\_Scripts\Equipment\BaseSerpentStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseSteelSword.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseWaterStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\BaseEquipment.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\CreateNewEquipment.cs" />
      <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
      <Compile Include="Assets\_Scripts\Player\BasePlayer.cs" />
      <Compile Include="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseOrc1Cyborg1.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseOrc2Class.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseOrcClass.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />

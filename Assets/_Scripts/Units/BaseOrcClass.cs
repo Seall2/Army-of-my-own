@@ -3,8 +3,11 @@ using System.Collections;
 
 public class BaseOrcClass : BaseUnitClass
 {
+	//private string upgradeUnit = new BaseOrc2Class().UnitID;
+
 	public BaseOrcClass()
 	{
+		UnitID = "O1";
 		BaseUnitName = "Orc";
 		BaseUnitDescription = "An orc with great fury";
 		BaseUnitImg = null;
@@ -28,8 +31,9 @@ public class BaseOrcClass : BaseUnitClass
 
 		Ability = "CHARGE";
 
-		Upgrade = "ORC 2";
+		//Upgrade = upgradeUnit;
+		Upgrade = "O2";
 		Mutate = "ORC MUTANT";
-		Rebuild = "ORC CYBORG";
+		Rebuild = "O1C1";
 	}
 }
