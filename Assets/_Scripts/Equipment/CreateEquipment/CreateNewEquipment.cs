@@ -17,6 +17,7 @@ public class CreateNewEquipment : MonoBehaviour
 	void Start () 
 	{
 		newEquipment = new BaseEquipment ();
+		GameInformation.Equipment2 = new List<string>();
 	}
 
 	void OnGUI()
@@ -51,7 +52,12 @@ public class CreateNewEquipment : MonoBehaviour
 			{
 				newEquipment.EquipmentClass = new BaseFireStone();
 			}
-
+			GameInformation.Equipment2.Add(newEquipment.BaseEquipmentName);
+			if (GameInformation.Equipment2.Count > 0) {
+				foreach (string s in GameInformation.Equipment2) {
+					Debug.Log ("stuff" +s);
+				}
+			}
 			newEquipment.BaseEquipmentName = newEquipment.EquipmentClass.BaseEquipmentName;
 			StoreNewPlayerInfo();
 			tempName = GameInformation.Equip;
@@ -75,6 +81,7 @@ public class CreateNewEquipment : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+
 		/*if (GameInformation.Equipment2.Contains ("Copper Sword")) 
 		{
 			BaseEquipmentClass tempClass = new BaseCopperSword ();

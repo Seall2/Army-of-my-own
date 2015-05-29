@@ -9,6 +9,7 @@ public class GameInformation : MonoBehaviour
 		DontDestroyOnLoad (transform.gameObject);
 	}
 
+
 	public static string PlayerName{ get; set; }
 
 	public static int PlayerLevel{ get; set; }

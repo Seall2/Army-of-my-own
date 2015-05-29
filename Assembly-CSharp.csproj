@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{CC0585A6-91FF-56C1-D195-26EFA164EC22}</ProjectGuid>
+	<ProjectGuid>{EA7480B3-71C8-D20E-486D-9690B555E2FB}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BuildBuildingScript.cs" />
+     <Compile Include="Assets\BuildingScript.cs" />
+     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\PlayerPrefsX.cs" />
+     <Compile Include="Assets\SelectBuildingScript.cs" />
+     <Compile Include="Assets\_Scripts\BuildSlotScript.cs" />
+     <Compile Include="Assets\_Scripts\Buildings\BaseBuildingClass.cs" />
+     <Compile Include="Assets\_Scripts\Buildings\BaseGoblinoidBuildingClass.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseAdamantSword.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseAirStone.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseBasiliskStone.cs" />
@@ -84,6 +91,8 @@
      <Compile Include="Assets\_Scripts\Units\BaseOrcClass.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />
+     <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" />
+     <Compile Include="Assets\_Scripts\testy.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
