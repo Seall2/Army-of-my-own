@@ -51,7 +51,6 @@
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\PlayerPrefsX.cs" />
      <Compile Include="Assets\SelectBuildingScript.cs" />
-     <Compile Include="Assets\_Scripts\BuildSlotScript.cs" />
      <Compile Include="Assets\_Scripts\Buildings\BaseBuildingClass.cs" />
      <Compile Include="Assets\_Scripts\Buildings\BaseGoblinoidBuildingClass.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseAdamantSword.cs" />
