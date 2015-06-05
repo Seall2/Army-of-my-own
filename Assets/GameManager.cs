@@ -3,9 +3,11 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour 
 {
+	public GameObject Base;
 	public GameObject MessangeBox;
 	public GameObject BuildingButton;
 	public GameObject SelectedBuilding;
+	private BaseUnitClass selectedUnit;
 
 	public static GameManager me = null;
 	void Awake()
@@ -15,6 +17,8 @@ public class GameManager : MonoBehaviour
 		}
 		me = this;
 	}
+
+	public BaseUnitClass SelectedUnit{get;set;}
 
 	// Use this for initialization
 	void Start () {

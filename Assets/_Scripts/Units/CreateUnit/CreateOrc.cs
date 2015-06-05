@@ -5,11 +5,13 @@ using System.Collections;
 public class CreateOrc : MonoBehaviour {
 
 	// Use this for initialization
-	public BaseBuildingClass buildingClass = new BaseGoblinoidBuildingClass();
+
+	public BaseBuildingClass goblins = new BaseGoblinoidBuildingClass();
 
 
 	public void MakeCharlie()
 	{
+
 		BaseUnit bu = new BaseUnit ();
 		bu.UnitClass = new BaseOrcClass ();
 		bu.UnitName = "Bob";
@@ -17,6 +19,7 @@ public class CreateOrc : MonoBehaviour {
 		bu.Attack = bu.UnitClass.Attack;
 		bu.Defence = bu.UnitClass.Defence;
 		bu.Speed = bu.UnitClass.Speed;
+
 
 		
 		bu.FireResistence = bu.UnitClass.FireResistence;
@@ -46,6 +49,8 @@ public class CreateOrc : MonoBehaviour {
 
 
 	}
+
+
 	
 	// Update is called once per frame
 	void Update () {

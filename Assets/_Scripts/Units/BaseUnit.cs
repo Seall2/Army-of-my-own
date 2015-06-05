@@ -89,4 +89,21 @@ public class BaseUnit
 		get{ return lightResistence;}
 		set{ lightResistence = value;}
 	}
+
+	public void SetAllStatsToUnitClass()
+	{
+		Health = UnitClass.Health;
+		Attack = UnitClass.Attack;
+		Defence = UnitClass.Defence;
+		Speed = UnitClass.Speed;
+
+		FireResistence = UnitClass.FireResistence;
+		AirResistence = UnitClass.AirResistence;
+		WaterResistence = UnitClass.WaterResistence;
+		EarthResistence = UnitClass.EarthResistence;
+		ShadowResistence = UnitClass.ShadowResistence;
+		LightResistence = UnitClass.LightResistence;
+		
+
+	}
 }

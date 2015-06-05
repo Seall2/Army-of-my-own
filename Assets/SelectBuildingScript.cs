@@ -9,12 +9,12 @@ public class SelectBuildingScript : MonoBehaviour {
 
 
 
-	public void SelectBuilding()
+	public void SelectGoblinoidBarrack()
 	{
 		if (Building != null) {
 			GameManager.me.SelectedBuilding = Building;
-			CreateOrc bs = Building.GetComponent<CreateOrc>();
-			Writting.text = bs.buildingClass.BuildingName;
+			BaseGoblinoidBuildingClass b = new BaseGoblinoidBuildingClass();
+			Writting.text = b.BuildingName;
 
 		}
 	}

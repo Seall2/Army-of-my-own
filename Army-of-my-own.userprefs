@@ -2,12 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs">
     <Files>
-      <File FileName="Assets\SelectBuildingScript.cs" Line="17" Column="49" />
-      <File FileName="Assets\BuildingScript.cs" Line="27" Column="51" />
-      <File FileName="Assets\GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\SelectBuildingScript.cs" Line="17" Column="43" />
+      <File FileName="Assets\BuildingScript.cs" Line="43" Column="41" />
+      <File FileName="Assets\GameManager.cs" Line="6" Column="25" />
       <File FileName="Assets\_Scripts\Buildings\BaseGoblinoidBuildingClass.cs" Line="1" Column="1" />
-      <File FileName="Assets\BuildBuildingScript.cs" Line="22" Column="64" />
-      <File FileName="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" Line="8" Column="75" />
+      <File FileName="Assets\BuildBuildingScript.cs" Line="39" Column="3" />
+      <File FileName="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" Line="53" Column="2" />
+      <File FileName="Assets\SelectUnitScript.cs" Line="16" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

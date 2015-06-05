@@ -51,6 +51,8 @@
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\PlayerPrefsX.cs" />
      <Compile Include="Assets\SelectBuildingScript.cs" />
+     <Compile Include="Assets\SelectUnitScript.cs" />
+     <Compile Include="Assets\_Scripts\BaseUnitWindowClass.cs" />
      <Compile Include="Assets\_Scripts\Buildings\BaseBuildingClass.cs" />
      <Compile Include="Assets\_Scripts\Buildings\BaseGoblinoidBuildingClass.cs" />
      <Compile Include="Assets\_Scripts\Equipment\BaseAdamantSword.cs" />
@@ -85,12 +87,15 @@
      <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
      <Compile Include="Assets\_Scripts\Player\BasePlayer.cs" />
      <Compile Include="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseGoblin.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseOrc1Cyborg1.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseOrc2Class.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseOrcClass.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseTroll.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />
      <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" />
+     <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateUnitScript.cs" />
      <Compile Include="Assets\_Scripts\testy.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>

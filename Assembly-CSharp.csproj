@@ -1,100 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-	<ProductVersion>10.0.20506</ProductVersion>
-	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{EA7480B3-71C8-D20E-486D-9690B555E2FB}</ProjectGuid>
-	<OutputType>Library</OutputType>
-	<AppDesignerFolder>Properties</AppDesignerFolder>
-	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-	<FileAlignment>512</FileAlignment>
-	<BaseDirectory>Assets</BaseDirectory>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA7480B3-71C8-D20E-486D-9690B555E2FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-	<DebugSymbols>true</DebugSymbols>
-	<DebugType>full</DebugType>
-	<Optimize>false</Optimize>
-	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-	<DebugType>pdbonly</DebugType>
-	<Optimize>true</Optimize>
-	<OutputPath>Temp\bin\Release\</OutputPath>
-	<DefineConstants>TRACE</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-	<Reference Include="System" />
-    <Reference Include="System.XML" />
-	<Reference Include="System.Core" />
-	<Reference Include="System.Xml.Linq" />
-	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-	</Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BuildBuildingScript.cs" />
-     <Compile Include="Assets\BuildingScript.cs" />
-     <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\PlayerPrefsX.cs" />
-     <Compile Include="Assets\SelectBuildingScript.cs" />
-     <Compile Include="Assets\_Scripts\Buildings\BaseBuildingClass.cs" />
-     <Compile Include="Assets\_Scripts\Buildings\BaseGoblinoidBuildingClass.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseAdamantSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseAirStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseBasiliskStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseBehemothStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseCopperSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseDragonStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseDryadStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseEarthStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseEquipmentClass.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseFireStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseGarudaStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseGnomeStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseGryphonStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseHarpyStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseIfritStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseIronSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseKrakenStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseLeviathanStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseMermaidStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseMythrilSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseOrichalcumSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BasePegasusStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BasePhoenixStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseSalamanderStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseSerpentStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseSteelSword.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\BaseWaterStone.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\BaseEquipment.cs" />
-     <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\CreateNewEquipment.cs" />
-     <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
-     <Compile Include="Assets\_Scripts\Player\BasePlayer.cs" />
-     <Compile Include="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" />
-     <Compile Include="Assets\_Scripts\Units\BaseOrc1Cyborg1.cs" />
-     <Compile Include="Assets\_Scripts\Units\BaseOrc2Class.cs" />
-     <Compile Include="Assets\_Scripts\Units\BaseOrcClass.cs" />
-     <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
-     <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />
-     <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" />
-     <Compile Include="Assets\_Scripts\testy.cs" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\BuildBuildingScript.cs" />
+    <Compile Include="Assets\BuildingScript.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\PlayerPrefsX.cs" />
+    <Compile Include="Assets\SelectBuildingScript.cs" />
+    <Compile Include="Assets\SelectUnitScript.cs" />
+    <Compile Include="Assets\_Scripts\Buildings\BaseBuildingClass.cs" />
+    <Compile Include="Assets\_Scripts\Buildings\BaseGoblinoidBuildingClass.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseAdamantSword.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseAirStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseBasiliskStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseBehemothStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseCopperSword.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseDragonStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseDryadStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseEarthStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseEquipmentClass.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseFireStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseGarudaStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseGnomeStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseGryphonStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseHarpyStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseIfritStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseIronSword.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseKrakenStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseLeviathanStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseMermaidStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseMythrilSword.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseOrichalcumSword.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BasePegasusStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BasePhoenixStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseSalamanderStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseSerpentStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseSteelSword.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\BaseWaterStone.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\BaseEquipment.cs" />
+    <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\CreateNewEquipment.cs" />
+    <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
+    <Compile Include="Assets\_Scripts\Player\BasePlayer.cs" />
+    <Compile Include="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" />
+    <Compile Include="Assets\_Scripts\Units\BaseGoblin.cs" />
+    <Compile Include="Assets\_Scripts\Units\BaseOrc1Cyborg1.cs" />
+    <Compile Include="Assets\_Scripts\Units\BaseOrc2Class.cs" />
+    <Compile Include="Assets\_Scripts\Units\BaseOrcClass.cs" />
+    <Compile Include="Assets\_Scripts\Units\BaseTroll.cs" />
+    <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
+    <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />
+    <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" />
+    <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateUnitScript.cs" />
+    <Compile Include="Assets\_Scripts\testy.cs" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -104,5 +107,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
