@@ -1,7 +1,8 @@
 ﻿<Properties GitUserInfo="UsingMD">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\ViewUnits\ViewUnits.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets\SelectBuildingScript.cs" Line="17" Column="43" />
       <File FileName="Assets\BuildingScript.cs" Line="43" Column="41" />
       <File FileName="Assets\GameManager.cs" Line="6" Column="25" />
@@ -9,6 +10,12 @@
       <File FileName="Assets\BuildBuildingScript.cs" Line="39" Column="3" />
       <File FileName="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" Line="53" Column="2" />
       <File FileName="Assets\SelectUnitScript.cs" Line="16" Column="17" />
+=======
+      <File FileName="Assets\_Scripts\ViewUnits\ViewUnits.cs" Line="37" Column="3" />
+      <File FileName="..\..\..\Game\MinionRPG\Assets\_Scripts\CreateAPlayerGUI\CreateAPlayerGUI.cs" Line="35" Column="1" />
+      <File FileName="..\..\..\Game\MinionRPG\Assets\_Scripts\CreateAPlayerGUI\DisplayCreatePlayerFunctions.cs" Line="25" Column="3" />
+      <File FileName="Assets\_Scripts\ViewUnits\ViewUnitsFunctions.cs" Line="11" Column="159" />
+>>>>>>> Stash
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

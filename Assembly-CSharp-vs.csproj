@@ -95,8 +95,13 @@
      <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
      <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />
      <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateUnitScript.cs" />
      <Compile Include="Assets\_Scripts\testy.cs" />
+=======
+     <Compile Include="Assets\_Scripts\ViewUnits\ViewUnits.cs" />
+     <Compile Include="Assets\_Scripts\ViewUnits\ViewUnitsFunctions.cs" />
+>>>>>>> Stash
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>

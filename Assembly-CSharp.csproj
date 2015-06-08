@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\BuildBuildingScript.cs" />
     <Compile Include="Assets\BuildingScript.cs" />
     <Compile Include="Assets\GameManager.cs" />
@@ -98,6 +99,58 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll</HintPath>
     </Reference>
+=======
+     <Compile Include="Assets\BuildBuildingScript.cs" />
+     <Compile Include="Assets\BuildingScript.cs" />
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\PlayerPrefsX.cs" />
+     <Compile Include="Assets\SelectBuildingScript.cs" />
+     <Compile Include="Assets\_Scripts\Buildings\BaseBuildingClass.cs" />
+     <Compile Include="Assets\_Scripts\Buildings\BaseGoblinoidBuildingClass.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseAdamantSword.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseAirStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseBasiliskStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseBehemothStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseCopperSword.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseDragonStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseDryadStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseEarthStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseEquipmentClass.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseFireStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseGarudaStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseGnomeStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseGryphonStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseHarpyStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseIfritStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseIronSword.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseKrakenStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseLeviathanStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseMermaidStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseMythrilSword.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseOrichalcumSword.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BasePegasusStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BasePhoenixStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseSalamanderStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseSerpentStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseSteelSword.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\BaseWaterStone.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\BaseEquipment.cs" />
+     <Compile Include="Assets\_Scripts\Equipment\CreateEquipment\CreateNewEquipment.cs" />
+     <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
+     <Compile Include="Assets\_Scripts\Player\BasePlayer.cs" />
+     <Compile Include="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseOrc1Cyborg1.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseOrc2Class.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseOrcClass.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseUnit.cs" />
+     <Compile Include="Assets\_Scripts\Units\BaseUnitClass.cs" />
+     <Compile Include="Assets\_Scripts\Units\CreateUnit\CreateOrc.cs" />
+     <Compile Include="Assets\_Scripts\ViewUnits\ViewUnits.cs" />
+     <Compile Include="Assets\_Scripts\ViewUnits\ViewUnitsFunctions.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ </Reference>
+>>>>>>> Stash
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
